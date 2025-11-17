@@ -1,0 +1,38 @@
+public class Rectangle {
+    
+    private double length;
+    private double width;
+
+    
+    public Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+
+    
+    public double calculateArea() {
+        return length * width;
+    }
+
+    
+    public double getLength() {
+        return length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    
+    public static void main(String[] args) {
+        
+        Rectangle recta1 = new Rectangle(10.10, 4.0);
+        System.out.println("Rectangle 1 Length: " + recta1.getLength() + ", Width: " + recta1.getWidth());
+        System.out.println("Area of Rectangle 1: " + recta1.calculateArea());
+
+        
+        Rectangle recta2 = new Rectangle(13.5, 4.21);
+        System.out.println("Rectangle 2 Length: " + recta2.getLength() + ", Width: " + recta2.getWidth());
+        System.out.println("Area of Rectangle 2: " + recta2.calculateArea());
+    }
+}
