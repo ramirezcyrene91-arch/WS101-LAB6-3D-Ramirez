@@ -1,1 +1,0 @@
-# WS101-LAB6-3D-Ramirez
